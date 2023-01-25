@@ -1,0 +1,29 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    background-color: grey;
+}
+
+/*adds a blue grey gradient background to the article section*/
+article{
+    background-image: linear-gradient(blue, grey);
+}
+
+/*adds a background image to the header, and a text colour of white*/
+header{
+    background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    color: white;
+}
+
+/*adds style to the hyperlinks*/
+a{
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
